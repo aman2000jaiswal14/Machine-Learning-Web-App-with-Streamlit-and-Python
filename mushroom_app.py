@@ -12,6 +12,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import roc_curve,roc_auc_score
 from sklearn.metrics import precision_recall_curve
 from sklearn.metrics import precision_score,recall_score
+st.set_option('deprecation.showPyplotGlobalUse', False)
 def main():
     st.title("Binary Classification Web App")
     st.sidebar.title("Binary Classification Web App")
